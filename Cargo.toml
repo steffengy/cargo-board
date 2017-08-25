@@ -1,0 +1,15 @@
+[package]
+name = "cargo-board"
+description = "Cargo subcommand to manage embedded boards"
+repository = "https://github.com/steffengy/cargo-board.git"
+version = "0.1.0"
+authors = ["Steffen Butzer <steffen.butzer@outlook.com>"]
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+categories = ["embedded", "no-std", "cargo"]
+keywords = ["arm", "embedded", "board"]
+
+[dependencies]
+serde = "1.0.11"
+serde_derive = "1.0.11"
+toml = "0.4.5"
